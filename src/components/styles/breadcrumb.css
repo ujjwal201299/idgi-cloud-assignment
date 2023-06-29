@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.breadcrumb-main-container {
+  padding: 20px;
+}
+
+.breadcrumb-main-container ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.breadcrumb-main-container ul > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.breadcrum-item {
+  display: flex;
+  justify-content: space-between;
+}
+/* .breadcrum-item-icon {
+
+} */
+.breadcrum-item-name {
+  padding-left: 5px;
+  display: flex;
+  flex: 3;
+  justify-content: start;
+  align-items: center;
+}

@@ -1,0 +1,77 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  margin-left: 250px;
+}
+
+.navbar-container {
+  background: var(--primaryBlue);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  outline: none;
+  width: 200px;
+  /* margin: 20px; */
+  border-radius: 0px 20px 20px 0px;
+  padding: 15px 0px;
+}
+
+.nav-options:active {
+  background-color: black;
+}
+
+.navbar-container ul {
+  padding: 10px 20px;
+}
+
+.navbar-container li {
+  padding: 10px 10px;
+}
+
+.navbar-container ul li {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  color: #fff;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-options {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav-item-name {
+  display: flex;
+  flex: 3;
+  justify-content: start;
+  align-items: center;
+}
+#item-icon {
+  width: 20px
+}
+.drop-down-icon {
+  display: flex;
+  flex: 1;
+  /* background-color: green; */
+  align-items: center;
+justify-content: space-evenly;
+/* padding-left: 10px; */
+}
+.item-name {
+  padding-left: 10px;
+  display: flex;
+  justify-content: start;
+  /* background-color: yellow; */
+}
